@@ -1,21 +1,26 @@
-# roommate-expense-splitter
-# Smart Utility & Room Rent Splitter 📱
+# ⚡ Smart Roommate Expense & Utility Splitter
 
-A clean, web-based Python application that calculates shared apartment expenses and processes multi-tiered electricity tariff slabs. 
+A production-ready, mobile-responsive web application that simplifies shared household budgeting and features a dynamic, multi-tiered electricity tariff matrix.
 
-## 🧬 Developed Entirely on a Smartphone
-As a first-year Electronics and Communication Engineering (ECE) student transitioning from a Biology background, I built, tested, and deployed this application using only my mobile device. This project reflects my adaptability and resourcefulness in mastering software logic under any constraints.
+🔗 **[Click Here to Run My App Live!](https://roommate-expense-splitter-yh5udehmqcxc9gyf47jw99.streamlit.app/)**
 
-## ⚡ How It Works
-- **Blank User Inputs:** The application starts with clean, empty fields so users can input their exact rent, roommate counts, and custom electricity rates.
-- **Tariff Slab Matrix:** Structured conditional loops handle non-linear utility pricing algorithms based on energy consumption thresholds.
-- **Web Deployment:** Converted from a terminal script into a responsive web page using Streamlit.
+---
 
-## 🚀 How to Run It Live
-You can test this project directly in your web browser! 
-- [👉 Click Here to Run the App Live on Streamlit 👈](PASTE_YOUR_LIVE_STREAMLIT_LINK_HERE)
+## 🧬 My Journey: Biology to ECE
+As a first-year Electronics and Communication Engineering (ECE) student transitioning from a biological sciences background, this project highlights my rapid adaptation to programming logic. To challenge myself further, I built, tested, and successfully deployed this entire application using only my **smartphone**.
 
-## 📁 Repository Structure
-- `app.py`: The main Python application file containing the interface and calculation logic.
-- `requirements.txt`: Tells the hosting server to install Streamlit.
-- `README.md`: Documentation for this portfolio project.
+## 🚀 Advanced UI/UX & Engineering Features
+Unlike standard calculators, this project implements a custom **Conditional Rendering Interface**:
+- **Dynamic Input Fields:** The app actively reads the total electricity units entered. If you enter `150 units`, it clean-renders *only* the input for Bracket A. The fields for Brackets B through E stay completely hidden until your consumption scales past those thresholds.
+- **Null Safety Verification:** Built logic gates to ensure that empty state parameters (`None` type values) do not trigger runtime calculation errors or software crashes.
+- **Mathematical Multi-Tier Logic:** Seamlessly handles non-linear conditional branching math to calculate electricity slabs accurately.
+
+## 🛠️ Built With
+- **Language:** Python 3
+- **Framework:** Streamlit (Web Architecture Engine)
+- **Deployment Platform:** Streamlit Community Cloud
+
+## 📂 Repository Layout
+- `app.py` - The core application file featuring dynamic UI logic and calculation matrices.
+- `requirements.txt` - Configuration manifest directing the server to install necessary dependencies.
+- `README.md` - Technical project documentation.
